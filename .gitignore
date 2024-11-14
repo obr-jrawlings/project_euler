@@ -1,0 +1,12 @@
+# Workspace
+venv
+.DS_Store
+.idea
+.git
+.venv
+__pycache__/
+/setup.cfg
+venv
+.ipynb_checkpoints
+*.ipynb
+.env
