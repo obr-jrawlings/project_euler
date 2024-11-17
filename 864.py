@@ -25,11 +25,11 @@ def PrimeFactors(value):
     return factors
 
 
-n = 1000
+n = 123567101113
 count = 0
 for x in range(1, n+1):
     y = x * x + 1
     if PrimeFactors(y) is not None:
         count += 1
+        print(count)
 
-print(count)
